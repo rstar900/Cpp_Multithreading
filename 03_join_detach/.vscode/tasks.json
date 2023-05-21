@@ -1,0 +1,45 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "Build with GCC",
+			"command": "/usr/bin/g++-11",
+			"args": [
+				"-std=c++11",
+				"-pthread",
+				"${workspaceFolder}/*.cpp",
+				"-o",
+				"${fileDirname}/main"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: /usr/bin/g++-11"
+		},
+		{
+			"type": "cppbuild",
+			"label": "Build with Clang",
+			"command": "/usr/bin/clang++-14",
+			"args": [
+				"-std=c++11",
+				"-pthread",
+				"${workspaceFolder}/*.cpp",
+				"-o",
+				"${fileDirname}/main"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: /usr/bin/clang++-14"
+		}
+	]
+}
