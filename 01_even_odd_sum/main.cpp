@@ -1,4 +1,5 @@
 // Insipration taken from https://youtu.be/TPVH_coGAQs?list=PLk6CEY9XxSIAeK-EAh3hB4fgNvYkYmghp
+// If the execution time of threaded case is higher or equal, then try compling with clang++ instead of g++
 // I use terms concurrent and parallel because when running threads on separate cores it should run parallely,
 // but in case they are run on the same core, they will run concurrently and will not offer any performance gain (but loss)
 
