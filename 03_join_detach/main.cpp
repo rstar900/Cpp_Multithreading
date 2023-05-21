@@ -1,4 +1,4 @@
-// https://youtu.be/q3-5sDe6lzg?list=PLk6CEY9XxSIAeK-EAh3hB4fgNvYkYmghp
+// Inspiration taken from https://youtu.be/q3-5sDe6lzg?list=PLk6CEY9XxSIAeK-EAh3hB4fgNvYkYmghp
 // If the execution time of threaded case is higher or equal, then try compling with clang++ instead of g++
 // Build type : Release (without -g), -std=c++11, -pthread
 
