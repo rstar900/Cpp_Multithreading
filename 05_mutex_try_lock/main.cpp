@@ -18,7 +18,7 @@ void increment(int thread_no)
         // It is much like polling but without blocking other activities
         if (m.try_lock())
         {   // Start of critical section
-            std::cout << "Thread " << thread_no << " acquired the lock\n"; // not want to flush the output immediately (so no std::endl)
+            std::cout << "Thread " << thread_no << " acquired the lock\n"; // We don't want to flush the output immediately (so no std::endl)
             ++x;
             std::this_thread::sleep_for(std::chrono::seconds(2));
             m.unlock();
