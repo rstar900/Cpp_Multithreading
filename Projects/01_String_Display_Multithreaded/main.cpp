@@ -41,7 +41,7 @@ int main()
         {
             char key = _getch();
 
-            if (key == 8) 
+            if (key == 8) // 8 is ascii code for Backspace key
             {
 
                 if (!displayString.empty())
