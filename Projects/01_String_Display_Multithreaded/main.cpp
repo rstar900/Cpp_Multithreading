@@ -1,6 +1,7 @@
 // This example will only work on Windows.
 
 #include <iostream>
+#include <string>
 #include <thread>
 #include <conio.h>
 #include <Windows.h>
